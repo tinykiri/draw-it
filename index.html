@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Draw It</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="draw" width="1000" height="600"></canvas>
+    <div class="controls">
+      <div>
+        <label for="lineWidth">Line Width: </label>
+        <input id="lineWidth" type="range" name="lineWidth" min="1" max="100" value="1" />
+        <p>Value: <output id="value"></output></p>
+      </div>
+      <label for="colorPicker">Pick a Color:</label>
+      <input id="colorPicker" type="color" name="colorPicker" value="#000000" />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
